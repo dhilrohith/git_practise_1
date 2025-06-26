@@ -1,0 +1,21 @@
+// 1. Because the arrow function scope outside the object.
+
+// 2. 
+
+// 3. Not valid, because even though a i hoisted still it is accessed before it declared.
+
+// 4. function load(){
+//     return new Promise((res, rej)=>{
+//         setTimeout(()=>{
+//             res("Loaded");
+//         }, 1000)
+//     })
+// };
+
+// load()
+//     .then((result)=>{
+//         console.log(result);
+//     })
+
+5.
+
